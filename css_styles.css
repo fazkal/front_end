@@ -8,6 +8,9 @@ body , html{
 	src:url("Iranian Sans.ttf");
 	font-family:baseFont;
 }
+a{
+	text-decoration:none;
+}
 a:link {
 	color:rgb(0,0,0)
 }
