@@ -8,6 +8,10 @@ body , html{
 	src:url("Iranian Sans.ttf");
 	font-family:baseFont;
 }
+#banner{
+	position:fixed;
+	width:100%;
+}
 a{
 	text-decoration:none;
 }
@@ -29,6 +33,8 @@ a:active {
 #wrapper{
 	background-color:rgb(183,0,0,0.5);
 	padding:30px 0;
+	position:relative;
+	top:600px;
 }
 .maintext{
 	background-color:rgb(183,0,0);
@@ -42,4 +48,7 @@ a:active {
 	margin: 20px 10px 1px 1px;
 	padding:10px;
 
+}
+ul{
+	list-style:none;
 }
