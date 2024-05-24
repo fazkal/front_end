@@ -26,6 +26,16 @@ a:hover{
 a:active {
 	color:rgb(255,40,40)
 }
+#wrapper{
+	background-color:rgb(183,0,0,0.5);
+	padding:30px 0;
+}
+.maintext{
+	background-color:rgb(183,0,0);
+	margin:30px 10px;
+	padding:10px;
+	border-radius:10px;
+}
 #about{
 	border: black solid 4px;
 	border-radius:20px;
