@@ -12,6 +12,10 @@ body , html{
 	position:fixed;
 	width:100%;
 }
+#menu{
+	position:absolute;
+	right:5px;
+}
 a{
 	text-decoration:none;
 }
@@ -36,11 +40,20 @@ a:active {
 	position:relative;
 	top:600px;
 }
-.maintext{
-	background-color:rgb(183,0,0);
+#maintextwrapper{
 	margin:30px 10px;
 	padding:10px;
 	border-radius:10px;
+	position:absolute;
+        right:150px;
+
+}
+.maintext{
+	background-color:rgb(183,0,0);
+        margin:30px 10px;
+        padding:10px;
+        border-radius:10px;
+
 }
 #about{
 	border: black solid 4px;
